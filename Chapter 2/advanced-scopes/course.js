@@ -16,9 +16,9 @@ angular.module('course', [])
   })
   .directive('debug', function () {
     return {
-      template: '<div>' + 
-        '<input ng-model="message" />' + 
-        '<select ng-model="level" ng-init="level = \'log\'">' + 
+      template: '<div>' +
+      '<input ng-model="message" />' +
+      '<select ng-model="level" ng-init="level = \'warn\'">' +
           '<option value="log">Log</option>' + 
           '<option value="warn">Warn</option>' + 
           '<option value="error">Error</option>' + 
