@@ -34,6 +34,7 @@ angular.module('course', [])
         var idx = _.random(types.length - 1);
         $scope.console[i].type = types[idx];
       }
+        console.log($scope.console);
     }
   })
   .filter('type', function () {
